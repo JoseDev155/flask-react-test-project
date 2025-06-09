@@ -58,8 +58,10 @@ function App() {
         <h2>Fruits</h2>
         <table className="table">
           <thead>
-            <th>Id</th>
-            <th>Fruit</th>
+            <tr>
+              <th>Id</th>
+              <th>Fruit</th>
+            </tr>
           </thead>
           <tbody>
             {fruits.map(fruit => (
